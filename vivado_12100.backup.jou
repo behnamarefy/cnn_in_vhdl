@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jun  7 08:14:06 2023
+# Process ID: 12100
+# Current directory: C:/Users/Behnam/Desktop/arefi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8968 C:\Users\Behnam\Desktop\arefi\conv_engine.xpr
+# Log file: C:/Users/Behnam/Desktop/arefi/vivado.log
+# Journal file: C:/Users/Behnam/Desktop/arefi\vivado.jou
+# Running On: DESKTOP-RGPM77K, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 25719 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Behnam/Desktop/arefi/conv_engine.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project H:/project/vivado/project_3/project_3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cnn_engine.tcl
+close_sim
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+file mkdir H:/project/vivado/project_3/project_3.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open H:/project/vivado/project_3/project_3.srcs/sim_1/new/conv_engin_tb.vhd w ]
+add_files -fileset sim_1 H:/project/vivado/project_3/project_3.srcs/sim_1/new/conv_engin_tb.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top conv_engin_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top conv_eng_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]

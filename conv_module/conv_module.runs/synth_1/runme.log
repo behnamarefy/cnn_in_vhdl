@@ -1,0 +1,681 @@
+
+*** Running vivado
+    with args -log conv_module.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv_module.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source conv_module.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/project/behnam/behnam/arefi/conv_module/conv_module.srcs/utils_1/imports/synth_1/conv_eng.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/project/behnam/behnam/arefi/conv_module/conv_module.srcs/utils_1/imports/synth_1/conv_eng.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top conv_module -part xc7a200tfbg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3612
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1451.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'conv_module' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:22]
+INFO: [Synth 8-3491] module 'ram1_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram1_1.vhd:7' bound to instance 'ram0' of component 'ram1_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1102]
+INFO: [Synth 8-638] synthesizing module 'ram1_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram1_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram1_1' (1#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram1_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram1_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram1_2.vhd:7' bound to instance 'ram1' of component 'ram1_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1111]
+INFO: [Synth 8-638] synthesizing module 'ram1_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram1_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram1_2' (2#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram1_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram2_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_1.vhd:7' bound to instance 'ram2' of component 'ram2_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1121]
+INFO: [Synth 8-638] synthesizing module 'ram2_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram2_1' (3#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram2_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_2.vhd:7' bound to instance 'ram3' of component 'ram2_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1130]
+INFO: [Synth 8-638] synthesizing module 'ram2_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram2_2' (4#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram2_3' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_3.vhd:7' bound to instance 'ram4' of component 'ram2_3' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1139]
+INFO: [Synth 8-638] synthesizing module 'ram2_3' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_3.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram2_3' (5#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram2_3.vhd:25]
+INFO: [Synth 8-3491] module 'ram3_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_1.vhd:7' bound to instance 'ram5' of component 'ram3_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1148]
+INFO: [Synth 8-638] synthesizing module 'ram3_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram3_1' (6#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram3_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_2.vhd:7' bound to instance 'ram6' of component 'ram3_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1157]
+INFO: [Synth 8-638] synthesizing module 'ram3_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram3_2' (7#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram3_3' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_3.vhd:7' bound to instance 'ram7' of component 'ram3_3' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1167]
+INFO: [Synth 8-638] synthesizing module 'ram3_3' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_3.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram3_3' (8#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_3.vhd:25]
+INFO: [Synth 8-3491] module 'ram3_4' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_4.vhd:7' bound to instance 'ram8' of component 'ram3_4' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1176]
+INFO: [Synth 8-638] synthesizing module 'ram3_4' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_4.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram3_4' (9#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram3_4.vhd:25]
+INFO: [Synth 8-3491] module 'ram4_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_1.vhd:7' bound to instance 'ram9' of component 'ram4_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1186]
+INFO: [Synth 8-638] synthesizing module 'ram4_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram4_1' (10#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram4_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_2.vhd:7' bound to instance 'ram10' of component 'ram4_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1196]
+INFO: [Synth 8-638] synthesizing module 'ram4_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram4_2' (11#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram4_3' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_3.vhd:7' bound to instance 'ram11' of component 'ram4_3' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1206]
+INFO: [Synth 8-638] synthesizing module 'ram4_3' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_3.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram4_3' (12#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_3.vhd:25]
+INFO: [Synth 8-3491] module 'ram4_4' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_4.vhd:7' bound to instance 'ram12' of component 'ram4_4' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1216]
+INFO: [Synth 8-638] synthesizing module 'ram4_4' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_4.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram4_4' (13#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_4.vhd:25]
+INFO: [Synth 8-3491] module 'ram4_5' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_5.vhd:7' bound to instance 'ram13' of component 'ram4_5' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1225]
+INFO: [Synth 8-638] synthesizing module 'ram4_5' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_5.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram4_5' (14#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_5.vhd:25]
+INFO: [Synth 8-3491] module 'ram4_6' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_6.vhd:7' bound to instance 'ram14' of component 'ram4_6' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1234]
+INFO: [Synth 8-638] synthesizing module 'ram4_6' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_6.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram4_6' (15#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram4_6.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_1_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_1_1.vhd:7' bound to instance 'ram15' of component 'ram5_1_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1243]
+INFO: [Synth 8-638] synthesizing module 'ram5_1_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_1_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_1_1' (16#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_1_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_2_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_2_1.vhd:7' bound to instance 'ram16' of component 'ram5_2_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1252]
+INFO: [Synth 8-638] synthesizing module 'ram5_2_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_2_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_2_1' (17#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_2_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_3_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_3_1.vhd:7' bound to instance 'ram17' of component 'ram5_3_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1262]
+INFO: [Synth 8-638] synthesizing module 'ram5_3_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_3_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_3_1' (18#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_3_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_4_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_4_1.vhd:7' bound to instance 'ram18' of component 'ram5_4_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1271]
+INFO: [Synth 8-638] synthesizing module 'ram5_4_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_4_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_4_1' (19#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_4_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_5_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_5_1.vhd:7' bound to instance 'ram19' of component 'ram5_5_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1281]
+INFO: [Synth 8-638] synthesizing module 'ram5_5_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_5_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_5_1' (20#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_5_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_6_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_6_1.vhd:7' bound to instance 'ram20' of component 'ram5_6_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1290]
+INFO: [Synth 8-638] synthesizing module 'ram5_6_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_6_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_6_1' (21#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_6_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_7_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_7_1.vhd:7' bound to instance 'ram21' of component 'ram5_7_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1299]
+INFO: [Synth 8-638] synthesizing module 'ram5_7_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_7_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_7_1' (22#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_7_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_8_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_8_1.vhd:7' bound to instance 'ram22' of component 'ram5_8_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1309]
+INFO: [Synth 8-638] synthesizing module 'ram5_8_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_8_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_8_1' (23#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_8_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_1_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_1_2.vhd:7' bound to instance 'ram23' of component 'ram5_1_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1318]
+INFO: [Synth 8-638] synthesizing module 'ram5_1_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_1_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_1_2' (24#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_1_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_2_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_2_2.vhd:7' bound to instance 'ram24' of component 'ram5_2_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1327]
+INFO: [Synth 8-638] synthesizing module 'ram5_2_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_2_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_2_2' (25#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_2_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_3_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_3_2.vhd:7' bound to instance 'ram25' of component 'ram5_3_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1336]
+INFO: [Synth 8-638] synthesizing module 'ram5_3_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_3_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_3_2' (26#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_3_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_4_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_4_2.vhd:7' bound to instance 'ram26' of component 'ram5_4_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1345]
+INFO: [Synth 8-638] synthesizing module 'ram5_4_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_4_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_4_2' (27#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_4_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_5_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_5_2.vhd:7' bound to instance 'ram27' of component 'ram5_5_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1355]
+INFO: [Synth 8-638] synthesizing module 'ram5_5_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_5_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_5_2' (28#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_5_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_6_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_6_2.vhd:7' bound to instance 'ram28' of component 'ram5_6_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1364]
+INFO: [Synth 8-638] synthesizing module 'ram5_6_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_6_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_6_2' (29#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_6_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_7_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_7_2.vhd:7' bound to instance 'ram29' of component 'ram5_7_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1374]
+INFO: [Synth 8-638] synthesizing module 'ram5_7_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_7_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_7_2' (30#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_7_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram5_8_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_8_2.vhd:7' bound to instance 'ram30' of component 'ram5_8_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1383]
+INFO: [Synth 8-638] synthesizing module 'ram5_8_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_8_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram5_8_2' (31#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram5_8_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_1_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_1_1.vhd:7' bound to instance 'ram31' of component 'ram6_1_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1392]
+INFO: [Synth 8-638] synthesizing module 'ram6_1_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_1_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_1_1' (32#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_1_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_2_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_2_1.vhd:7' bound to instance 'ram32' of component 'ram6_2_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1401]
+INFO: [Synth 8-638] synthesizing module 'ram6_2_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_2_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_2_1' (33#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_2_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_3_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_3_1.vhd:7' bound to instance 'ram33' of component 'ram6_3_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1411]
+INFO: [Synth 8-638] synthesizing module 'ram6_3_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_3_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_3_1' (34#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_3_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_4_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_4_1.vhd:7' bound to instance 'ram34' of component 'ram6_4_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1420]
+INFO: [Synth 8-638] synthesizing module 'ram6_4_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_4_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_4_1' (35#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_4_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_5_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_5_1.vhd:7' bound to instance 'ram35' of component 'ram6_5_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1429]
+INFO: [Synth 8-638] synthesizing module 'ram6_5_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_5_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_5_1' (36#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_5_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_6_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_6_1.vhd:7' bound to instance 'ram36' of component 'ram6_6_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1438]
+INFO: [Synth 8-638] synthesizing module 'ram6_6_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_6_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_6_1' (37#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_6_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_7_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_7_1.vhd:7' bound to instance 'ram37' of component 'ram6_7_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1447]
+INFO: [Synth 8-638] synthesizing module 'ram6_7_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_7_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_7_1' (38#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_7_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_8_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_8_1.vhd:7' bound to instance 'ram38' of component 'ram6_8_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1457]
+INFO: [Synth 8-638] synthesizing module 'ram6_8_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_8_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_8_1' (39#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_8_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_9_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_9_1.vhd:7' bound to instance 'ram39' of component 'ram6_9_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1466]
+INFO: [Synth 8-638] synthesizing module 'ram6_9_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_9_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_9_1' (40#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_9_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_10_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_10_1.vhd:7' bound to instance 'ram40' of component 'ram6_10_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1476]
+INFO: [Synth 8-638] synthesizing module 'ram6_10_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_10_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_10_1' (41#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_10_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_11_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_11_1.vhd:7' bound to instance 'ram41' of component 'ram6_11_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1486]
+INFO: [Synth 8-638] synthesizing module 'ram6_11_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_11_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_11_1' (42#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_11_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_12_1' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_12_1.vhd:7' bound to instance 'ram42' of component 'ram6_12_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1496]
+INFO: [Synth 8-638] synthesizing module 'ram6_12_1' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_12_1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_12_1' (43#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_12_1.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_1_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_1_2.vhd:7' bound to instance 'ram43' of component 'ram6_1_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1506]
+INFO: [Synth 8-638] synthesizing module 'ram6_1_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_1_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_1_2' (44#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_1_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_2_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_2_2.vhd:7' bound to instance 'ram44' of component 'ram6_2_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1515]
+INFO: [Synth 8-638] synthesizing module 'ram6_2_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_2_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_2_2' (45#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_2_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_3_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_3_2.vhd:7' bound to instance 'ram45' of component 'ram6_3_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1524]
+INFO: [Synth 8-638] synthesizing module 'ram6_3_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_3_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_3_2' (46#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_3_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_4_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_4_2.vhd:7' bound to instance 'ram46' of component 'ram6_4_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1533]
+INFO: [Synth 8-638] synthesizing module 'ram6_4_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_4_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_4_2' (47#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_4_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_5_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_5_2.vhd:7' bound to instance 'ram47' of component 'ram6_5_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1542]
+INFO: [Synth 8-638] synthesizing module 'ram6_5_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_5_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_5_2' (48#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_5_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_6_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_6_2.vhd:7' bound to instance 'ram48' of component 'ram6_6_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1552]
+INFO: [Synth 8-638] synthesizing module 'ram6_6_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_6_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_6_2' (49#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_6_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_7_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_7_2.vhd:7' bound to instance 'ram49' of component 'ram6_7_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1561]
+INFO: [Synth 8-638] synthesizing module 'ram6_7_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_7_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_7_2' (50#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_7_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_8_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_8_2.vhd:7' bound to instance 'ram50' of component 'ram6_8_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1571]
+INFO: [Synth 8-638] synthesizing module 'ram6_8_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_8_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_8_2' (51#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_8_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_9_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_9_2.vhd:7' bound to instance 'ram51' of component 'ram6_9_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1580]
+INFO: [Synth 8-638] synthesizing module 'ram6_9_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_9_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_9_2' (52#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_9_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_10_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_10_2.vhd:7' bound to instance 'ram52' of component 'ram6_10_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1589]
+INFO: [Synth 8-638] synthesizing module 'ram6_10_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_10_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_10_2' (53#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_10_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_11_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_11_2.vhd:7' bound to instance 'ram53' of component 'ram6_11_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1599]
+INFO: [Synth 8-638] synthesizing module 'ram6_11_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_11_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_11_2' (54#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_11_2.vhd:25]
+INFO: [Synth 8-3491] module 'ram6_12_2' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_12_2.vhd:7' bound to instance 'ram54' of component 'ram6_12_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1608]
+INFO: [Synth 8-638] synthesizing module 'ram6_12_2' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_12_2.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ram6_12_2' (55#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/ram6_12_2.vhd:25]
+INFO: [Synth 8-3491] module 'conv_eng' declared at 'D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:31' bound to instance 'convolution_engine' of component 'conv_eng' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1618]
+INFO: [Synth 8-638] synthesizing module 'conv_eng' [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:44]
+	Parameter n_f bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element f_test_1_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:371]
+WARNING: [Synth 8-6014] Unused sequential element f_test_2_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:372]
+WARNING: [Synth 8-6014] Unused sequential element f_test_3_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:373]
+WARNING: [Synth 8-6014] Unused sequential element f_test_4_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:374]
+WARNING: [Synth 8-6014] Unused sequential element f_test_5_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:375]
+WARNING: [Synth 8-6014] Unused sequential element f_test_6_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:376]
+WARNING: [Synth 8-6014] Unused sequential element f_test_7_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:377]
+WARNING: [Synth 8-6014] Unused sequential element f_test_8_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:378]
+WARNING: [Synth 8-6014] Unused sequential element f_test_9_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:379]
+WARNING: [Synth 8-6014] Unused sequential element f_test_10_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:380]
+WARNING: [Synth 8-6014] Unused sequential element f_test_11_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:381]
+WARNING: [Synth 8-6014] Unused sequential element f_test_12_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:382]
+WARNING: [Synth 8-6014] Unused sequential element f_test_13_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:383]
+WARNING: [Synth 8-6014] Unused sequential element f_test_14_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:384]
+WARNING: [Synth 8-6014] Unused sequential element f_test_15_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:385]
+WARNING: [Synth 8-6014] Unused sequential element f_test_16_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:386]
+WARNING: [Synth 8-6014] Unused sequential element out_test_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:835]
+WARNING: [Synth 8-6014] Unused sequential element out_test18_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:836]
+INFO: [Synth 8-256] done synthesizing module 'conv_eng' (56#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_engine.vhd:44]
+WARNING: [Synth 8-6014] Unused sequential element conv_num_int_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1638]
+WARNING: [Synth 8-6014] Unused sequential element cov1_counter_reg was removed.  [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:1644]
+INFO: [Synth 8-256] done synthesizing module 'conv_module' (57#1) [D:/project/behnam/behnam/arefi/conv_engine.srcs/sources_1/new/conv_module.vhd:22]
+WARNING: [Synth 8-7129] Port en in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port conv_num[2] in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port conv_num[1] in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port conv_num[0] in module conv_module is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1451.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1451.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-2
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg484-2
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1451.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/project/behnam/behnam/arefi/conv_module/conv_module.srcs/utils_1/imports/synth_1/conv_eng.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1451.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1451.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	             9216 Bit    Registers := 1     
+	              144 Bit    Registers := 2     
+	               72 Bit    Registers := 55    
+	               18 Bit    Registers := 511   
+	                1 Bit    Registers := 3     
++---RAMs : 
+	              36K Bit	(512 X 72 bit)          RAMs := 55    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP convolution_engine/mult_reg[15], operation Mode is: (A*B)'.
+DSP Report: register convolution_engine/mult_reg[15] is absorbed into DSP convolution_engine/mult_reg[15].
+DSP Report: operator convolution_engine/mult_reg[15]0 is absorbed into DSP convolution_engine/mult_reg[15].
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[0] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[14] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[14]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[13] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[13]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[12] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[12]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[11] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[11]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[10] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[10]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[9] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[9]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[8] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[8]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[7] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[7]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[6] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[6]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[5] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[5]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[4] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[4]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[3] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[3]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[2] is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: operator convolution_engine/mult_reg[2]0 is absorbed into DSP convolution_engine/out_put_reg[0]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[0], operation Mode is: (PCIN+(A*B)')'.
+DSP Report: register convolution_engine/out_put_reg[0] is absorbed into DSP convolution_engine/out_put_reg[0].
+DSP Report: register convolution_engine/mult_reg[1] is absorbed into DSP convolution_engine/out_put_reg[0].
+DSP Report: operator convolution_engine/out_put_reg[0]0 is absorbed into DSP convolution_engine/out_put_reg[0].
+DSP Report: operator convolution_engine/mult_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[0].
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: C+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[16] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[16]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[14] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[14]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[13] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[13]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[12] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[12]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[11] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[11]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[10] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[10]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[9] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[9]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[8] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[8]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[7] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[7]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[6] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[6]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[5] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[5]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[4] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[4]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[3] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[3]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1]0, operation Mode is: PCIN+(A*B)'.
+DSP Report: register convolution_engine/mult_reg[2] is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: operator convolution_engine/mult_reg[2]0 is absorbed into DSP convolution_engine/out_put_reg[1]0.
+DSP Report: Generating DSP convolution_engine/out_put_reg[1], operation Mode is: (PCIN+(A*B)')'.
+DSP Report: register convolution_engine/out_put_reg[1] is absorbed into DSP convolution_engine/out_put_reg[1].
+DSP Report: register convolution_engine/mult_reg[1] is absorbed into DSP convolution_engine/out_put_reg[1].
+DSP Report: operator convolution_engine/out_put_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1].
+DSP Report: operator convolution_engine/mult_reg[1]0 is absorbed into DSP convolution_engine/out_put_reg[1].
+WARNING: [Synth 8-7129] Port en in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port conv_num[2] in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port conv_num[1] in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port conv_num[0] in module conv_module is either unconnected or has no load
+WARNING: [Synth 8-7161] Found RAM (i_0) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram0/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_1) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram1/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_2) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram2/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_3) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram3/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_4) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram4/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_5) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram5/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_6) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram6/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_7) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram7/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_8) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram8/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_9) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram9/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_10) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram10/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_11) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram11/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_12) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram12/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_13) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram13/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_14) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram14/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_15) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram15/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_16) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram16/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_17) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram17/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_18) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram18/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_19) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram19/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_20) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram20/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_21) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram21/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_22) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram22/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_23) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram23/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_24) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram24/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_25) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram25/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_26) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram26/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_27) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram27/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_28) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram28/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_29) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram29/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_30) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram30/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_31) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram31/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_32) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram32/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_33) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram33/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_34) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram34/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_35) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram35/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_36) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram36/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_37) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram37/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_38) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram38/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_39) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram39/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_40) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram40/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_41) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram41/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_42) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram42/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_43) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram43/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_44) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram44/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_45) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram45/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_46) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram46/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_47) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram47/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_48) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram48/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_49) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram49/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_50) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram50/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_51) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram51/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_52) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram52/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_53) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram53/RAM_reg was removed. 
+WARNING: [Synth 8-7161] Found RAM (i_54) with all bits of address stuck at constant. Please re-evaluate the design if this is intended.
+WARNING: [Synth 8-6014] Unused sequential element ram54/RAM_reg was removed. 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|conv_eng    | (A*B)'         | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | (PCIN+(A*B)')' | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 1    | 
+|conv_eng    | C+(A*B)'       | 18     | 18     | 36     | -      | 36     | 0    | 0    | 0    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | PCIN+(A*B)'    | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|conv_eng    | (PCIN+(A*B)')' | 18     | 18     | -      | -      | 36     | 0    | 0    | -    | -    | -     | 1    | 1    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |   577|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   577|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 139 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 1626.352 ; gain = 174.789
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1626.352 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1626.352 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 2f29c211
+INFO: [Common 17-83] Releasing license: Synthesis
+183 Infos, 139 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 1626.352 ; gain = 174.789
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/project/behnam/behnam/arefi/conv_module/conv_module.runs/synth_1/conv_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file conv_module_utilization_synth.rpt -pb conv_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 23 10:07:13 2023...
